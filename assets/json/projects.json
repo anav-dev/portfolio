@@ -13,27 +13,27 @@
     "website": "https://anav-dev.github.io/hand-embroidery/",
     "code": "https://github.com/anav-dev/hand-embroidery",
     "stack": "HTML | CSS |",
-    "background": "This project is the first project of the Full Stack Software Development Diploma at CI. its main goal is to provide reliable content and information about the embroidery art craft via an aesthetically pleasing site.It also aims to offer an easy-to-navigate experience for the user through its intuitive and user friendly design so that user can have an easy experience while learning."
+    "background": "This project is the first project of the Full Stack Software Development Diploma at CI. its main goal is to provide reliable content and information about the embroidery art craft via an aesthetically pleasing site using HTML and pure CSS."
   },
   {
     "name": "Game",
     "description": "This is a JavaScript game where the player aims to match as many running objects as possible before running out of time. Runner Crush is a three-page site that can be used by gaming lovers who are looking to unwind in their spare time.",
-    "website": "",
+    "website": "https://github.com/anav-dev/runner-crush",
     "code": "https://github.com/anav-dev/runner-crush",
     "stack": "HTML | CSS | JavaScript",
-    "background": "This website's main goal is to provide an opportunity to stimulate the user's mind through an engaging pleasing site. It also aims to offer an easy-to-navigate experience for the user through its intuitive and user-friendly design so that users can have an easy experience while having fun."
+    "background": "This website's main goal is to provide an opportunity to stimulate the user's mind through an engaging pleasing site using pure JavaScript. It also aims to offer an easy-to-navigate experience for the user through its intuitive and user-friendly design so that users can have an easy experience while having fun."
   },
   {
     "name": "Javathecat",
-    "description": "Final project for module: Web Design and Client Side Scripting. Responsive website, built in collaboration with: https://github.com/NCI-Marta",
+    "description": "Java the Cat is a site that aims to provide resources and information related to cat fostering, as well as raising public awareness. Fully responsive site so it will adapt and display properly across various devices and screen sizes.",
     "website": "https://nci-marta.github.io/java-the-cat/",
     "code": "https://github.com/anav-dev/WebDesign_Project",
     "stack": "HTML | CSS | JavaScript",
-    "background": "Final project for webside design and client side scripting."
+    "background": "Final project for module: Web Design and Client Side Scripting. Responsive website, built in collaboration with: https://github.com/NCI-Marta."
   },
   {
     "name": "Library",
-    "description": "A project of Cloud Application Development module. This platform displays library catalog, allowing users to login. Used of PHP and multiple databases.",
+    "description": "A project of Cloud Application Development module. This platform displays a library catalog, allowing users to register, login and check out different books. PHP framework and multiple databases used to build this site.",
     "website": "https://cloudappnci.000webhostapp.com/index.php",
     "code": "https://github.com/anav-dev/CloudApp_finalproject",
     "stack": "PHP | CodeIgniter | phpMyAdmin|",
@@ -41,8 +41,8 @@
   },
   {
     "name": "Discoverireland",
-    "description": "First React project using Routing and React Dom, creating and reusing different components. Web application that contains: 4 distinct sections of HTML5, styles controlled by several external CSS file, clearly defined, consistent, navigation system and form, information pull from a data source.",
-    "website": "",
+    "description": "Discover Ireland is a website showcasing different travel destinations in Ireland where users can check the destinations information as well as its current weather.",
+    "website": "https://github.com/anav-dev/myfirst-react-projec",
     "code": "https://github.com/anav-dev/myfirst-react-project",
     "stack": "React | API |",
     "background": "First React project using Routing and React Dom, creating and reusing different components. Web application that contains: 4 distinct sections of HTML5, styles controlled by several external CSS file, clearly defined, consistent, navigation system and form, information pull from a data source."
