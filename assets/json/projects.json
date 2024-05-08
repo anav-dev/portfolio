@@ -8,6 +8,14 @@
     "background": "This is the final project of the Computing Science Diploma at NCI. This web that enables users to write blog posts as well as to visualise an analog photographer work. Firebase Authentication (Google as provider), Google Maps API, CRUD operations, FireStore Database, and React Testing Library were used and implemented. This platform only includes desktop design as the main focus is the functionality."
   },
   {
+    "name": "AnMar",
+    "description": "AnMar is a elderly friendly application designed to allow elder people to enjoy all the positive experiences that an online library can offer to end-users through a clearly consistent navigation system and forms, validated form entries, and multiple defined pages. ",
+    "website": "https://github.com/anav-dev/react-finalproject-ca2",
+    "code": "https://github.com/anav-dev/react-finalproject-ca2",
+    "stack": "React | CSS Sass | Axios Library |",
+    "background": "A collaborative project of the Advanced Client Side Development module at NCI where a PWA for a specific business was implemented. For this purpose, React, information pulled from a remote data source and information stored in local storage, form validation entries and a defined navigation system were implemented."
+  },
+  {
     "name": "Embroidery",
     "description": "This website provides information and displays images of hand embroidery basics. Hand Embroidery is a single-page site that can be used by craft lovers who are looking for more information about embroidery. Designed to be responsive, easy to use and navigate, it is intended for people interested in learning more about this art through an enjoyable and appealing visual experience.",
     "website": "https://anav-dev.github.io/hand-embroidery/",
