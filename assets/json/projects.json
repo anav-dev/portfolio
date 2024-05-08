@@ -32,6 +32,14 @@
     "background": "Final project for module: Web Design and Client Side Scripting. Responsive website, built in collaboration with: https://github.com/NCI-Marta."
   },
   {
+    "name": "Discoverireland",
+    "description": "Discover Ireland is a website showcasing different travel destinations in Ireland where users can check the destinations information as well as its current weather.",
+    "website": "https://github.com/anav-dev/myfirst-react-projec",
+    "code": "https://github.com/anav-dev/myfirst-react-project",
+    "stack": "React | API |",
+    "background": "First React project using Routing and React Dom, creating and reusing different components. Web application that contains: 4 distinct sections of HTML5, styles controlled by several external CSS file, clearly defined, consistent, navigation system and form, information pull from a data source."
+  },
+  {
     "name": "Library",
     "description": "A project of Cloud Application Development module. This platform displays a library catalog, allowing users to register, login and check out different books. PHP framework and multiple databases used to build this site.",
     "website": "https://cloudappnci.000webhostapp.com/index.php",
@@ -40,11 +48,11 @@
     "background": "A library website developed by using the framework CodeIgniter. First project with a login system using PHP and multiple databases. Website deployed successfully to the Web host: 000webhost."
   },
   {
-    "name": "Discoverireland",
-    "description": "Discover Ireland is a website showcasing different travel destinations in Ireland where users can check the destinations information as well as its current weather.",
-    "website": "https://github.com/anav-dev/myfirst-react-projec",
-    "code": "https://github.com/anav-dev/myfirst-react-project",
+    "name": "Weather",
+    "description": "The primary purpose of this weather application is to provide users with accurate and up-to-date information about current weather conditions, forecasts, and other relevant meteorological data.",
+    "website": "https://github.com/anav-dev/weatherApp",
+    "code": "https://github.com/anav-dev/weatherApp",
     "stack": "React | API |",
-    "background": "First React project using Routing and React Dom, creating and reusing different components. Web application that contains: 4 distinct sections of HTML5, styles controlled by several external CSS file, clearly defined, consistent, navigation system and form, information pull from a data source."
-  }   
+    "background": "A Weather Forecast App creating by using React and Tailwindcss."
+  }  
 ]
