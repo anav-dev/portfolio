@@ -42,7 +42,7 @@
   {
     "name": "Discover",
     "description": "Discover Ireland is a website showcasing different travel destinations in Ireland where users can check the destinations information as well as its current weather.",
-    "website": "https://github.com/anav-dev/myfirst-react-projec",
+    "website": "https://github.com/anav-dev/myfirst-react-project",
     "code": "https://github.com/anav-dev/myfirst-react-project",
     "stack": "React | API |",
     "background": "First React project using Routing and React Dom, creating and reusing different components. Web application that contains: 4 distinct sections of HTML5, styles controlled by several external CSS file, clearly defined, consistent, navigation system and form, information pull from a data source."
