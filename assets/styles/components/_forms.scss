@@ -1,0 +1,35 @@
+@use '../utilities/' as *;
+.form__group {
+    margin: 24px 0;
+    .form__label {
+        color: hsl(245deg 11% 22%);
+    }
+    .form__control {
+        display: block;
+        margin-top: 8px;
+        border: 1px solid var(--clr-light-gray);
+        padding: 16px 9px;
+        width: 100%;
+        background-color: var(--clr-light-gray);
+        color: rgba(51, 50, 61, 0.4);
+        outline: none;
+        &:focus {
+            border: 2px solid var(--clr-cyan);
+            color: var(--clr-dark-blue);
+        } 
+        &:valid {
+            color: var(--clr-dark-blue);
+        } 
+    }
+    textarea {
+        font-family: var(--ff-public-sans);
+    }
+    .form__active {
+        border: 2px solid var(--clr-cyan);
+        color: var(--clr-dark-blue);
+    }
+    .form__error{
+        border: 2px solid var(--clr-bright-red);
+    }
+   
+}

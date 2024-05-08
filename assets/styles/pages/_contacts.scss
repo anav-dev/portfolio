@@ -1,0 +1,47 @@
+@use '../utilities/' as *;
+
+#contact {
+    margin-inline: auto;
+    margin-bottom: rem(80);
+    #toaster {
+        position: fixed;
+        padding: 16px;
+        background-color: var(--clr-cyan);
+        right: 0;
+        z-index: 1;
+        color: var(--clr-dark-blue);
+        opacity: 0;
+        p {
+            margin: 0;
+        }
+    }
+    .contact__message {
+        padding: 25px 0 32px; 
+        .social-media__link {
+            font-size: 24px;
+            color: var(--clr-dark-blue);
+            &:hover {
+                color: var(--clr-cyan);
+            }
+        }
+        .social-media__link + .social-media__link {
+            margin-left: 15px;
+        }
+    }
+    .contact__form {
+        padding: 24px 0;
+       
+    }
+
+    .contact__form, .contact__message {
+        h1, h2 {
+            flex: 1;
+        }
+        div {
+            flex: 13%;
+        }
+        @include breakpoint-up('large'){
+            display: flex;
+        }
+    }
+}

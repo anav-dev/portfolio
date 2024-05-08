@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/logo.svg"
+    />
+
+    <title>Ana Verdejo | Contact</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/dist/style.css" />
+    <script defer src="./assets/js/script.js"></script>
+    <script defer src="./assets/js/contacts.js"></script>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__brand">
+          <img
+            src="./assets/images/logo.svg"
+            class="nav__logo"
+            alt="website logo"
+          />
+        </a>
+        <ul class="nav__lists" id="nav__lists">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="/portfolio.html" class="nav__link">Portfolio</a>
+          </li>
+          <li class="nav__item">
+            <a href="contact.html" class="nav__link nav__link--active"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+
+        <a id="nav__toggle" class="nav__burger" aria-label="open navigation">
+          <div class="nav__burger-lines" id="nav__burger-lines">
+            <span class="nav__burger-line nav__burger-line--1"></span>
+            <span class="nav__burger-line nav__burger-line--2"></span>
+            <span class="nav__burger-line nav__burger-line--3"></span>
+          </div>
+        </a>
+      </nav>
+    </header>
+
+    <main class="container main" id="contact">
+      <section id="toaster">
+        <p>Thanks for being interested in working with me</p>
+      </section>
+      <section class="contact__message border border--no-side">
+        <h1>Get in Touch</h1>
+        <div>
+          <p>
+            I’d love to hear about what you’re working on and how I could help.
+            Please do feel free to check out my
+            online profiles below and get in touch using the form.
+          </p>
+          <div class="social-media__links">
+            <a
+              href="https://github.com/anav-dev"
+              target="_blank"
+              class="social-media__link"
+              aria-label="Github"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://twitter.com/vana54286447"
+              target="_blank"
+              class="social-media__link"
+              aria-label="Twitter"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/ana-verdejo/"
+              target="_blank"
+              class="social-media__link"
+              aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+      <section class="contact__form">
+        <h2>Contact Me</h2>
+        <div>
+          <form
+            class="form"
+            id="contactForm"
+            onSubmit="submitForm(event)"
+            action="https://formspree.io/"
+            method="POST"
+            novalidate
+          >
+            <div class="form__group">
+              <label for="name" class="form__label">Name</label>
+              <input
+                class="form__control"
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Your Full Name"
+              />
+              <small class="text-error"></small>
+            </div>
+            <div class="form__group">
+              <label for="email" class="form__label">Email Address</label>
+              <input
+                class="form__control"
+                type="email"
+                name="email"
+                novalidate
+                id="email"
+                placeholder="email@example.com"
+              />
+              <small class="text-error"></small>
+            </div>
+            <div class="form__group">
+              <label for="message" class="form__label">Message</label>
+              <textarea
+                class="form__control"
+                id="message"
+                name="message"
+                rows="10"
+                cols="30"
+                placeholder="Your Message"
+              ></textarea>
+              <small class="text-error"></small>
+            </div>
+            <button id="submit" class="btn-submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="container footer">
+        <div class="footer__links">
+          <a href="#" class="nav__brand">
+            <img src="./assets/images/light-logo.png" alt="website logo" />
+          </a>
+          <ul class="footer__lists">
+            <li class="footer__item">
+              <a href="index.html" class="footer__link">Home</a>
+            </li>
+            <li class="footer__item">
+              <a href="portfolio.html" class="footer__link">Portfolio</a>
+            </li>
+            <li class="footer__item">
+              <a href="contact.html" class="footer__link">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social-media__links">
+          <a
+            href="https://github.com/anav-dev"
+            target="_blank"
+            class="social-media__link"
+            ><img src="./assets/images/icons/github.svg" alt="github"
+          /></a>
+          <a
+            href="https://twitter.com/vana54286447"
+            target="_blank"
+            class="social-media__link"
+            ><img src="./assets/images/icons/twitter.svg" alt="twitter"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/ana-verdejo/"
+            target="_blank"
+            class="social-media__link"
+            ><img src="./assets/images/icons/linkedin.svg" alt="linkedin"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

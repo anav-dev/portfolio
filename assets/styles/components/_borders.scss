@@ -1,0 +1,12 @@
+@use '../utilities/' as *;
+
+.border {
+    border: 1px solid var(--clr-light-gray);
+}
+.border--no-side {
+    border-inline: none;
+}
+
+.border-right {
+    border-right: 1px solid var(--clr-light-gray);
+}

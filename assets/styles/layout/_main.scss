@@ -1,0 +1,17 @@
+@use '../utilities/' as *;
+
+.main {
+    margin-top: rem(104); 
+    @include breakpoint-up('medium') {
+        margin-top: rem(148);
+    }
+    
+}
+
+section{
+    margin-bottom: rem(80);
+    @include breakpoint-up('medium') {
+        margin-bottom: rem(150);
+    }
+   
+}

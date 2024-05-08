@@ -1,0 +1,54 @@
+@use '../utilities/' as *;
+#footer {
+    background-color: var(--clr-gray-blue);
+    text-align: center;
+    padding: rem(24) 0;
+    .footer {
+        @include breakpoint-up('medium') {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .footer__links {
+            @include breakpoint-up('medium') {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+    }
+    
+    .footer__lists {
+        margin: rem(40) 0;
+        @include breakpoint-up('medium') {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 0 0 rem(48);
+        }
+        .footer__item + .footer__item {
+            margin-top: rem(32);
+            @include breakpoint-up('medium') {
+                margin-top: 0;
+                margin-left: rem(40)
+            }
+        }
+        .footer__link {
+            color: #FFF;
+            text-transform: uppercase;
+            letter-spacing: rem(2);
+            font-size: rem(12);
+            transition: all .3s ease-in-out;
+            &:hover {
+                color: var(--clr-cyan);
+            }
+        }
+        
+    }
+
+    .social-media__links {
+        .social-media__link + .social-media__link {
+            margin-left: rem(15);
+        }
+    }
+    
+}

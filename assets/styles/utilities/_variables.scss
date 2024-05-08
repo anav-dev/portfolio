@@ -1,0 +1,21 @@
+:root {
+    /* Color */
+
+    //primary
+    --clr-cyan:  hsl(167, 36%, 54%);
+    --clr-dark-blue: hsl(207, 41%, 21%);
+    --clr-gray-blue: hsl(245, 11%, 22%);
+    //secondary
+    --clr-very-light-gray: hsl(0, 0%, 98%);
+    --clr-light-gray: hsl(240, 2%, 92%);
+    --clr-bright-red : hsl(0, 90%, 57%);
+
+    /* Font Family */
+    --ff-ibarra: 'Ibarra Real Nova', serif;
+    --ff-public-sans: 'Public Sans', sans-serif;
+
+    /* Font Weight  */
+    --fw-light: 200;
+    --fw-regular: 400;
+    --fw-bold: 600;
+}

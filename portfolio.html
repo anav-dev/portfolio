@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../assets/images/logo.svg"
+    />
+
+    <title>Ana Verdejo | Portfolio</title>
+
+    <link rel="stylesheet" href="../dist/style.css" />
+    <script defer src="../assets/js/script.js"></script>
+    <script defer src="../assets/js/portfolio.js"></script>
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__brand">
+          <img
+            src="../assets/images/logo.svg"
+            class="nav__logo"
+            alt="website logo"
+          />
+        </a>
+        <ul class="nav__lists" id="nav__lists">
+          <li class="nav__item">
+            <a href="../index.html" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="/portfolio.html" class="nav__link nav__link--active"
+              >Portfolio</a
+            >
+          </li>
+          <li class="nav__item">
+            <a href="contact.html" class="nav__link">Contact Me</a>
+          </li>
+        </ul>
+
+        <a id="nav__toggle" class="nav__burger" aria-label="open navigation">
+          <div class="nav__burger-lines" id="nav__burger-lines">
+            <span class="nav__burger-line nav__burger-line--1"></span>
+            <span class="nav__burger-line nav__burger-line--2"></span>
+            <span class="nav__burger-line nav__burger-line--3"></span>
+          </div>
+        </a>
+      </nav>
+    </header>
+
+    <main class="container main" id="portfolio">
+      <section id="projects">
+        <!-- data come from portfolio.js -->
+      </section>
+
+      <section id="contact-me">
+        <h2 class="contact__title">Interested in doing a project together?</h2>
+        <div class="contact__line"></div>
+        <a href="contact.html" class="btn btn-secondary"> Contact Me </a>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="container footer">
+        <div class="footer__links">
+          <a href="#" class="nav__brand">
+            <img src="../assets/images/light-logo.png" alt="website logo" />
+          </a>
+          <ul class="footer__lists">
+            <li class="footer__item">
+              <a href="index.html" class="footer__link">Home</a>
+            </li>
+            <li class="footer__item">
+              <a href="/portfolio.html" class="footer__link">Portfolio</a>
+            </li>
+            <li class="footer__item">
+              <a href="contact.html" class="footer__link">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+        <div class="social-media__links">
+          <a
+            href="https://github.com/anav-dev"
+            target="_blank"
+            class="social-media__link"
+            ><img src="./assets/images/icons/github.svg" alt="github"
+          /></a>
+          <a
+            href="https://twitter.com/vana54286447"
+            target="_blank"
+            class="social-media__link"
+            ><img src="./assets/images/icons/twitter.svg" alt="twitter"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/ana-verdejo/"
+            target="_blank"
+            class="social-media__link"
+            ><img src="./assets/images/icons/linkedin.svg" alt="linkedin"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

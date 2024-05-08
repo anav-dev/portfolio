@@ -1,0 +1,51 @@
+[
+    {
+      "name": "Analog",
+      "description": "A web application in which film photography is the central theme in order to promote analog photography. Contains: a login system, remote data source, a blog system, a NonSQL Database, and unit testing usign a React library.",
+      "website": "https://project-3ebfb.web.app/",
+      "code": "https://github.com/anav-dev/final-project",
+      "stack": "React | Google Maps API | Firebase |",
+      "background": "This is the final project of the Computing Science Diploma at NCI. This web that enables users to write blog posts as well as to visualise an analog photographer work. Firebase Authentication (Google as provider), Google Maps API, CRUD operations, FireStore Database, and React Testing Library were used and implemented. This platform only includes desktop design as the main focus is the functionality."
+    },
+    {
+      "name": "Embroidery",
+      "description": "This website provides information and displays images of hand embroidery basics. Hand Embroidery is a single-page site that can be used by craft lovers who are looking for more information about embroidery. Designed to be responsive, easy to use and navigate, it is intended for people interested in learning more about this art through an enjoyable and appealing visual experience.",
+      "website": "https://anav-dev.github.io/hand-embroidery/",
+      "code": "https://github.com/anav-dev/hand-embroidery",
+      "stack": "HTML | CSS |",
+      "background": "This project is the first project of the Full Stack Software Development Diploma at CI. its main goal is to provide reliable content and information about the embroidery art craft via an aesthetically pleasing site.It also aims to offer an easy-to-navigate experience for the user through its intuitive and user friendly design so that user can have an easy experience while learning."
+    },
+    {
+      "name": "Game",
+      "description": "",
+      "website": "",
+      "code": "",
+      "stack": "HTML | CSS | JavaScript",
+      "background": ""
+    },
+    {
+      "name": "Javathecat",
+      "description": "",
+      "website": "",
+      "code": "",
+      "stack": "HTML | CSS | JavaScript",
+      "background": ""
+    },
+    {
+      "name": "Library",
+      "description": "",
+      "website": "",
+      "code": "",
+      "stack": "PHP",
+      "background": ""
+    },
+    {
+      "name": "Discoverireland",
+      "description": "",
+      "website": "",
+      "code": "",
+      "stack": "React | Google Maps API |",
+      "background": ""
+    }   
+  ]
+  

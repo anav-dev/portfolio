@@ -1,0 +1,66 @@
+@use '../utilities/' as *;
+
+#portfolio {    
+    .project {
+        &:nth-child(even){
+            @include breakpoint-up('medium'){
+                flex-direction: row-reverse;
+            }
+    
+        }
+
+        @include breakpoint-up('medium'){
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: rem(80);
+            align-items: center;
+            
+        }
+        @include breakpoint-up('large'){
+            align-items: stretch;
+            
+        }
+
+        .project__image {
+            margin-bottom: rem(32);
+            @include breakpoint-up('medium'){
+                width: 40%;
+                margin-bottom: 0;
+            }
+            img {
+                width: 100%;
+            }
+        }
+        .project__body {
+            border: 1px solid var(--clr-light-gray);
+            border-inline: none;
+            padding: rem(25) 0;
+            @include breakpoint-up('medium'){
+                width: 40%;
+            }
+            .buttons {
+
+                @include breakpoint-up('large'){
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                a {
+                    display: block;
+                    @include breakpoint-up('large'){
+                        display: inline-block
+                    }
+                    
+                }
+                a + a {
+                    margin-top: rem(20);
+                    @include breakpoint-up('large'){
+                        margin-top: 0;
+                    }
+                }
+                
+            }
+        }
+    }
+    
+}

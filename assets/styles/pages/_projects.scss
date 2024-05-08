@@ -1,0 +1,76 @@
+@use '../utilities/' as *;
+
+#project {
+    .project__details {
+        margin-top: rem(40);
+        @include breakpoint-up('large') {
+            display: flex;
+            gap: rem(125);
+            align-items: flex-start;
+        }
+       
+        .project__description {
+            flex: 1;
+            margin-bottom: rem(40);
+            padding: rem(25) 0;
+            @include breakpoint-up('medium') {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-template-rows: 50px;
+                gap: rem(10);
+            }
+            @include breakpoint-up('large') {
+                display: block
+            }
+            .text-small {
+                opacity: 1;
+                line-height: 1;
+                font-size: rem(13);
+            }
+            .text-small:first-child {
+                margin-bottom: rem(16);
+            }
+        }
+    
+        .project__background {
+            flex: 1;
+            .project__preview-image + .project__preview-image {
+                margin-bottom: rem(30);
+            }
+        }
+    }
+    .links {
+        margin-top: rem(64);;
+        display: flex;
+        .link {
+            flex: 1;
+            padding: rem(24) 0;
+            @include breakpoint-up('medium') {
+                display: flex;
+                align-items: center;
+                gap: 32px;
+            }
+            &:hover {
+                background-color: var(--clr-light-gray);
+            }
+            .link__texts {
+                margin-top: rem(16);
+                h3, p {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .link--right {
+            text-align: right;
+            @include breakpoint-up('medium') {
+                justify-content: flex-end;
+                img {
+                    order: 2;
+                }
+            }
+        }
+    
+    }
+
+    
+}
