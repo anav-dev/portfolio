@@ -6,7 +6,7 @@
 
 ---
 
-![Site Mockup](https://github.com/anav-dev/portfolio/tree/main/assets/images/mockup.jpg)
+![Site Mockup](https://github.com/anav-dev/portfolio/blob/main/assets/images/mockup.jpg)
 
 
 **References**
