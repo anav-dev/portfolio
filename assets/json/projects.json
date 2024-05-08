@@ -5,7 +5,7 @@
     "website": "https://project-3ebfb.web.app/",
     "code": "https://github.com/anav-dev/final-project",
     "stack": "React | Google Maps API | Firebase |",
-    "background": "This is the final project of the Computing Science Diploma at NCI. This web that enables users to write blog posts as well as to visualise an analog photographer work. Firebase Authentication (Google as provider), Google Maps API, CRUD operations, FireStore Database, and React Testing Library were used and implemented. This platform only includes desktop design as the main focus is the functionality."
+    "background": "This is the final project of the Computing Science Diploma at NCI. This web that enables users to write blog posts as well as to visualise an analog photographer work. Firebase Authentication (Google as provider), Google Maps API, CRUD operations, FireStore Database, and React Testing Library were used and implemented."
   },
   {
     "name": "Anmar",
