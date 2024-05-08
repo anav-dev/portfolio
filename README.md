@@ -8,7 +8,8 @@
 
 ![Site Mockup](https://github.com/anav-dev/portfolio/blob/main/assets/images/mockup.jpg)
 
+---
 
-**References**
+**Reference**
 
 Roland Jethro Suyom: [Jeth0214 Github](https://github.com/Jeth0214)
