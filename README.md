@@ -10,6 +10,10 @@
 
 ---
 
-**Reference**
+**References**
 
 Roland Jethro Suyom: [Jeth0214 Github](https://github.com/Jeth0214)
+
+Deployment: [Netlify](https://www.netlify.com/)
+
+Form endpoint: [Formspree](https://formspree.io/)
